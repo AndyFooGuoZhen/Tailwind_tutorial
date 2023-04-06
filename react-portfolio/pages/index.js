@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-32">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">developedbyed</h1>
@@ -40,7 +40,7 @@ export default function Home() {
               Andy Foo
             </h2>
             <h3 className="text-2xl py-2">Developer and tester.</h3>
-            <p className="text-md py-5 leading-8 text-gray-700">
+            <p className="text-md py-5 leading-8 text-gray-700 max-w-xl mx-auto">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
               inventore placeat vero ipsam aspernatur quae delectus facilis,
               doloribus ipsum id accusamus, perspiciatis error reprehenderit
@@ -52,6 +52,13 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
+          {/* <div className="flex justify-center ">
+            <div className=" flex relative  justify-center items-center bg-gradient-to-b from-teal-500 w-80 h-80 rounded-full mt-20 overflow-hidden">
+              <Image src={deved} layout="fill" objectFit="cover" />
+              <h1 className="text-5xl">hello</h1>
+            </div>
+          </div> */}
+
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
